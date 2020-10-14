@@ -1,0 +1,35 @@
+body{
+    font-family: 'Special Elite', cursive;
+}
+#my-container{
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.header{
+    margin-top: 76px;
+}
+.card.mb-3{
+  
+    margin: auto;
+    padding: 30px;
+  
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    
+}
+.card.mb-3:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+button{
+    padding: 4px 15px;
+    border: none;
+    background: rebeccapurple;
+    color: white;
+    outline: none;
+}
+button:hover {
+    opacity: 0.6}
+#text-center{
+    text-align: center !important;
+}
